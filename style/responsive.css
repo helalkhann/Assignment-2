@@ -1,7 +1,7 @@
-/*header section responsive for mobile device */
+/*responsive for mobile device */
 
 @media screen and (max-width: 576px){
-   
+   /*nav bar section */
     .nav-links ul{
         display:none;
     }
@@ -11,9 +11,26 @@
     .burg-icon{
         display:block;
     }
+    /*hero section */
+    .hero-container{
+        flex-direction: column-reverse;
+        margin-top:120px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-right img{
+        width:80%;
+        height:auto;
+    }
+    .hero-left{
+        margin:20px 20px;
+    }
 }
-/*header section responsive for tablet device */
+
+/*responsive for tablet device */
 @media screen and (min-width: 576px ) and (max-width:992px){
+    /*nav bar section */
     .nav-links ul{
         display:none;
     }
@@ -23,5 +40,19 @@
     .burg-icon{
         display:block;
         
+    }
+    /*hero section */
+    .hero-container{
+        flex-direction: column-reverse;
+        margin-top:120px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-left{
+        margin:30px 0;
+    }
+    .hero-left p{
+        margin-left:1.5rem;
     }
 }

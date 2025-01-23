@@ -115,13 +115,13 @@ header section
     align-items: center;
 }
 .hero-left{
-    width:640px;
+    max-width:640px;
     height:331px;
     margin:122px 0;
     margin-right:50px;
 }
 .hero-left h1{
-    font-size:56px;
+    font-size:3.10rem;
     font-weight:700;
 }
 .hero-left .orange-color{
@@ -131,13 +131,15 @@ header section
     color:skyblue;
 }
 .hero-left p{
-    font-size:20px;
+    font-size:1.25rem;
     font-weight:400;
     margin:20px 0;
+    word-wrap: wrap;
+    
 }
 .hero-left button{
     padding:10px 47px;
-    font-size:20px;
+    font-size:1.25rem;
     font-weight:700;
     border:none;
     border-radius: 12px;
@@ -149,6 +151,10 @@ header section
     color:white;
 }
 .hero-right{
-    width:468px;
+    max-width:468px;
     height:575px;
+}
+.hero-right img{
+    width:100%;
+    height:auto;
 }
