@@ -95,6 +95,11 @@ header section
     background-color:skyblue;
     transition: 0.5s;
 }
+.burg-icon img{
+    display:none;
+    width:30px;
+    height:30px;
+}
 /* =============================
  End of header section design
  ===============================
