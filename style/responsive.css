@@ -38,13 +38,12 @@
         display:none;
     }
     .burg-icon{
-        display:block;
-        
+        display:block; 
     }
     /*hero section */
     .hero-container{
         flex-direction: column-reverse;
-        margin-top:120px;
+        margin-top:200px;
         justify-content: center;
         align-items: center;
         text-align: center;
