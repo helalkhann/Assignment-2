@@ -145,6 +145,7 @@ header section
     border-radius: 12px;
     background-color: black;
     color:white;
+    cursor: pointer;
 }
 .hero-left button:hover{
     background-color:orange;
@@ -164,6 +165,7 @@ header section
     background-image: url('../assets/bg.png');
     background-position: top;
     height:879px;
+    margin:auto;
 }
 .curriculum-heading{
     font-size:3rem;
@@ -179,23 +181,22 @@ header section
 }
 .curriculum-box-item{
     
-    width:367px;
+    width:32%;
     height:476px;
     border-radius: 18px;
-    
     padding:0 20px;
     
 }
 .box-item-one{
     background:linear-gradient(190deg,
-        rgb(202, 239, 255),
+        rgb(191, 231, 248),
         rgb(255, 255, 255),
         rgba(255, 255, 255, 0));border:0.94px solid rgb(222, 245, 255);
         box-shadow:0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 .box-item-two{
     background:linear-gradient(190deg,
-    rgb(253, 255, 154),
+    rgb(249, 250, 168),
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0))
     ;border:0.94px solid rgb(222, 245, 255);
@@ -203,7 +204,7 @@ header section
 }
 .box-item-three{
 background:linear-gradient(190deg,
-        hsl(288, 93%, 83%),
+        hsl(288, 73%, 85%),
         rgb(255, 255, 255),
         rgba(234, 144, 252, 0));border:0.94px solid rgb(222, 245, 255);
         box-shadow:0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
@@ -225,6 +226,9 @@ background:linear-gradient(190deg,
 .curriculum-box-item a{
     font-size:1.2rem;
     font-weight:500;
+}
+.curriculum-box-item a:hover{
+    color:black;
 }
 .readmore-first{
     color:skyblue;
@@ -256,3 +260,4 @@ background:linear-gradient(190deg,
     background-color:orange;
     color:white;
 }
+/*-=============Curriculum section END=========== */

@@ -26,6 +26,34 @@
     .hero-left{
         margin:20px 20px;
     }
+    /*Curriculum section */
+    .curriculum{
+        margin-top:300px;
+
+    }
+    .curriculum-box{
+        flex-direction: column;
+    }
+    .curriculum-box-item{
+        width:80%;
+    }
+    .curriculum-heading{
+        font-size:1.5rem;
+        margin:5px;
+        margin-bottom:20px;
+    }
+    .arrow-btn{
+        display:none;
+    }
+    .curriculum-box-item h2{
+        font-size:1rem
+    }
+    .curriculum-box-item p{
+        font-size:1rem
+    }
+    .curriculum-box-item>a{
+        font-size:1rem;
+    }
 }
 
 /*responsive for tablet device */
@@ -53,5 +81,31 @@
     }
     .hero-left p{
         margin-left:1.5rem;
+    }
+    /*Curriculum section */
+    .curriculum{
+        margin-top:220px;
+
+    }
+    .curriculum-box{
+        flex-direction: column;
+    }
+    .curriculum-box-item{
+        width:80%;
+    }
+    .curriculum-heading{
+        font-size:3rem;
+    }
+    .arrow-btn{
+        display:none;
+    }
+    .curriculum-box-item h2{
+        font-size:2rem
+    }
+    .curriculum-box-item p{
+        font-size:1.5rem
+    }
+    .curriculum-box-item>a{
+        font-size:2rem;
     }
 }
