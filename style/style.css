@@ -8,10 +8,13 @@ body{
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color:rgb(253, 253, 253);
 }
 #body{
     max-width:1140px;
     margin:0 auto;
+    padding:0 20px;
+    
 }
 /*Share Style properties*/
 .display-flex{
@@ -25,7 +28,11 @@ a{
 }
 /*Main style */
 
-/*Navbar section */
+/*
+===============================
+header section
+===============================
+*/
 .navbar{
     justify-content:space-between;
     align-items:center;
@@ -48,15 +55,47 @@ a{
     font-weight:700;
 }
 .first-item{
-    color:Orange;
+    color:orange;
 }
 .second-item{
-    color:skyBlue;
+    color:skyblue;
 }
 .third-item{
-    color:rgb(5, 212, 223);
+    color:#05D4DF;
 }
 .fourth-item{
-    color:rgb(93, 88, 239);
+    color:#5D58EF;
 }
-
+.first-item:hover{
+    color:rgb(255, 251, 0);
+    transition: 0.5s;
+}
+.second-item:hover{
+    color:rgb(255, 123, 0);
+    transition: 0.5s;
+}
+.third-item:hover{
+    color:rgb(255, 0, 128);
+    transition: 0.5s;
+}
+.fourth-item:hover{
+    color:rgb(255, 196, 0);
+    transition: 0.2s;
+}
+.contact-btn button{
+    padding:10px 60.5px;
+    font-size:20px;
+    background-color:orange;
+    color:white;
+    border:none;
+    border-radius: 12px;
+    cursor:pointer;
+}
+.contact-btn button:hover{
+    background-color:skyblue;
+    transition: 0.5s;
+}
+/* =============================
+ End of header section design
+ ===============================
+ */
