@@ -5,10 +5,10 @@
     .nav-links ul{
         display:none;
     }
-    .contact-btn{
+    .contact-btn button{
         display:none;
     }
-    .burg-icon img{
+    .burg-icon{
         display:block;
     }
 }
@@ -17,10 +17,11 @@
     .nav-links ul{
         display:none;
     }
-    .contact-btn{
+    .contact-btn button{
         display:none;
     }
-    .burg-icon img{
+    .burg-icon{
         display:block;
+        
     }
 }

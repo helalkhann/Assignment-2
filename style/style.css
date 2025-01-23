@@ -11,7 +11,7 @@ body{
     background-color:rgb(253, 253, 253);
 }
 #body{
-    max-width:1140px;
+    max-width:1440px;
     margin:0 auto;
     padding:0 20px;
     
@@ -91,15 +91,16 @@ header section
     border-radius: 12px;
     cursor:pointer;
 }
-.contact-btn button:hover{
-    background-color:skyblue;
-    transition: 0.5s;
-}
-.burg-icon img{
+.burg-icon{
     display:none;
     width:30px;
     height:30px;
 }
+.contact-btn button:hover{
+    background-color:skyblue;
+    transition: 0.5s;
+}
+
 /* =============================
  End of header section design
  ===============================
