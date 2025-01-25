@@ -54,6 +54,40 @@
     .curriculum-box-item>a{
         font-size:1rem;
     }
+    /*story section */
+    .story-container{
+        margin-top:700px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .story-box-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:40px;
+    }
+    .story-left-item{
+        display:none;
+    }
+    .story-right-item{
+        grid-template-columns: 1fr;
+    }
+    .story-heading{
+        margin-bottom:40px;
+    }
+    .right-item{
+        width:100%;
+    }
+    .curriculum-heading{
+        font-size:2rem;
+        font-weight:700;
+        text-align:center;
+        margin:0 0 50px 0;
+    }
+    .story-button{
+        margin-bottom:20px;
+    }
 }
 
 /*responsive for tablet device */
@@ -107,5 +141,20 @@
     }
     .curriculum-box-item>a{
         font-size:2rem;
+    }
+    /*story section */
+    .story-container{
+        margin-top:800px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .story-box-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .story-left-item{
+        margin:0 10px;
     }
 }

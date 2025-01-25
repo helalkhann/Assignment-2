@@ -3,6 +3,8 @@
     padding:0;
 }
 body{
+    width:100vw;
+    height:100vh;
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -11,7 +13,6 @@ body{
 .content-width{
     max-width:1140px;
     margin:0 auto;
-    padding:0 20px;   
 }
 /*Share Style properties*/
 .display-flex{
@@ -265,10 +266,13 @@ background:linear-gradient(190deg,
  start design story section
  */
  .story-container{
-    padding-top:20px;
+    width:100%;
+    padding-top:50px;
             background: linear-gradient(-90deg, rgba(2, 0, 36, 0.116) 0%, rgba(245, 218, 13, 0.103) 40%, rgba(0, 213, 255, 0.068) 100%),
             url(../assets/bg.png);
+    background-size: cover;
     margin-top:-50px;
+    box-shadow: 5px 50% 2px orange;
  }
  .story-heading{
     display:flex;
@@ -284,6 +288,9 @@ background:linear-gradient(190deg,
     gap:18px;
     margin-bottom:80px;
     padding:20px;
+ }
+ .story-box-main{
+    width:100%;
  }
  .story-left-item{
     width:540px;
@@ -329,6 +336,18 @@ background:linear-gradient(190deg,
     font-weight:700;
     line-height: 38px;
  }
+ .story-date-one{
+    background-color:skyblue;
+ }
+ .story-date-two{
+    background-color:royalblue;
+ }
+ .story-date-three{
+    background-color:rgb(255, 0, 85);
+ }
+ .story-date-four{
+    background-color:green;
+ }
  .story-left-item .story-content>p{
     width:433px;
     font-size:0.95rem;
@@ -371,3 +390,4 @@ background:linear-gradient(190deg,
     background-color:orange;
     color:white;
 }
+/*-=============Story section END=========== */
