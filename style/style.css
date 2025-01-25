@@ -3,18 +3,15 @@
     padding:0;
 }
 body{
-    width:100%;
-    height:100%;
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
     background-color:rgb(255, 255, 255);
 }
-#body{
+.content-width{
     max-width:1140px;
     margin:0 auto;
-    padding:0 20px;
-    
+    padding:0 20px;   
 }
 /*Share Style properties*/
 .display-flex{
@@ -25,6 +22,10 @@ ul{
 }
 a{
     text-decoration:none;
+}
+.heading-one{
+    font-size:3.10rem;
+    font-weight:700;
 }
 /*Main style */
 
@@ -160,12 +161,11 @@ header section
     height:auto;
 }
 /*-=============End=========== */
-/*-=============Curriculum section =========== */
+/*-=============Start Curriculum section =========== */
 .curriculum{
     background-image: url('../assets/bg.png');
     background-position: top;
     height:879px;
-    margin:auto;
 }
 .curriculum-heading{
     font-size:3rem;
@@ -198,8 +198,8 @@ header section
     background:linear-gradient(190deg,
     rgb(249, 250, 168),
     rgb(255, 255, 255),
-    rgba(255, 255, 255, 0))
-    ;border:0.94px solid rgb(222, 245, 255);
+    rgba(255, 255, 255, 0)) ;
+    border:0.94px solid rgb(222, 245, 255);
     box-shadow:0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 }
 .box-item-three{
@@ -261,3 +261,113 @@ background:linear-gradient(190deg,
     color:white;
 }
 /*-=============Curriculum section END=========== */
+/* =============================
+ start design story section
+ */
+ .story-container{
+    padding-top:20px;
+            background: linear-gradient(-90deg, rgba(2, 0, 36, 0.116) 0%, rgba(245, 218, 13, 0.103) 40%, rgba(0, 213, 255, 0.068) 100%),
+            url(../assets/bg.png);
+    margin-top:-50px;
+ }
+ .story-heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:80px;
+ }
+ .story-heading h1{
+    font-size:3rem;
+    font-weight:700;
+ }
+ .story-box-main{
+    gap:18px;
+    margin-bottom:80px;
+    padding:20px;
+ }
+ .story-left-item{
+    width:540px;
+    height:630px;
+ }
+ .left-item{
+    background-color:white;
+    border-radius: 16px;
+    padding-bottom:10px;
+ }
+ .story-right-item{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:18.5px;
+ }
+ .right-item{
+    width:290px;
+    height:301px;
+    
+    background-color:white;
+    border-radius: 16px;
+ }
+ .story-content{
+    padding-left:38.35px;
+    margin-top:-25px;
+ }
+ 
+ .story-date{
+    width:174px;
+    padding:14px 19px;
+    font-size:0.9rem;
+    font-weight:500;
+    text-align:center;
+    color:white;
+    background-color:orange;
+    border:none;
+    border-radius: 47px;
+    margin-bottom:25px;
+ }
+ .story-left-item .story-content>h2{
+    width:402px;
+    font-size:1.5rem;
+    font-weight:700;
+    line-height: 38px;
+ }
+ .story-left-item .story-content>p{
+    width:433px;
+    font-size:0.95rem;
+    line-height: 28.76px;
+    color:rgb(102, 102, 102);
+    margin:34px 0;
+ }
+ .story-right-item .story-content>h2{
+    width:198px;
+    font-size:0.95rem;
+    font-weight:700;
+    line-height: 28.76px;
+ }
+ .left-item + .right-item{
+    border-radius: 16px;
+ }
+ .story-img{
+    border-radius: 16px 16px 0 0;
+ }
+ .story-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:60px;
+ }
+ .story-btn button{
+    width:197px;
+    height:50px;
+    padding:10px 47px;
+    font-size:1.25rem;
+    font-weight:700;
+    border:none;
+    border-radius: 12px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+ }
+ 
+.story-btn button:hover{
+    background-color:orange;
+    color:white;
+}
