@@ -306,6 +306,13 @@ background:linear-gradient(190deg,
     grid-template-columns: repeat(2, 1fr);
     grid-gap:18.5px;
  }
+ .story-right-img{
+    width:290px;
+    height:301px;
+ }
+ .story-right-img>img{
+    width:100%;
+ }
  .right-item{
     width:290px;
     height:301px;
@@ -347,6 +354,9 @@ background:linear-gradient(190deg,
  }
  .story-date-four{
     background-color:green;
+ }
+ .story-right-item>img{
+    width:100%;
  }
  .story-left-item .story-content>p{
     width:433px;
@@ -399,9 +409,9 @@ footer{
 }
 .main-footer{
     justify-content: space-between;
+    word-wrap: wrap;
 }
 .footer-box{
-
     margin-top:12.5%;
 }
 .footer-box p{
@@ -411,6 +421,7 @@ footer{
     color:rgb(255, 255, 255);
     line-height: 25px;
     margin:35px;
+    word-wrap: wrap;
 }
 .footer-logo{
     justify-content: center;
@@ -421,7 +432,7 @@ footer{
     height:92px;
     margin-right:10px;
 }
-.footer-logo h1{
+.footer-logo>h1{
     font-size:2.9rem;
     font-weight:700;
     line-height: 2.9rem;
@@ -441,6 +452,9 @@ footer{
     color:white;
     font-size:20px;
     font-weight: 500;
+}
+.footer-list>li>a:hover{
+    color:rgb(230, 226, 226);
 }
 .social{
     margin-top:32px;
